@@ -19,7 +19,7 @@
     <div class="form_design1">
       <form class="form-horizontal" action="lay_login.jsp" method="POST">
         <div class="form-group">
-          <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+          <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
           <div class="col-sm-10">
             <input type="text" name="username" style="background-color: transparent" class="form-control" id="inputEmail3" placeholder="">
           </div>
@@ -71,19 +71,24 @@
       <div class="modal-header">
         <h2 style="text-align: center">Sign up</h2>
       </div>
-      <form class="form-horizontal" action="/llll">
+      <!--8.26 更新实现简单注册的代码-->
+      <!--
+      注册用户的用户名为username_sign 密码为password_sign
+      点击submit后 跳转到lay_signup.jsp
+      -->
+      <form class="form-horizontal" action="lay_signup.jsp" method="POST">
         <div class="modal-body">
           <div class="row">
             <div class="form-group">
               <label for="inputNmae" class="col-sm-3 control-label">username</label>
               <div class="col-sm-9">
-                <input type="text" class="form-control" id="inputNmae" placeholder="username">
+                <input type="text" class="form-control" id="inputNmae" placeholder="username"  name="username_sign">
               </div>
             </div>
             <div class="form-group">
               <label for="inputSex" class="col-sm-3 control-label">password</label>
               <div class="col-sm-9">
-                <input type="text" class="form-control" id="inputSex" placeholder="password">
+                <input type="text" class="form-control" id="inputSex" placeholder="password" name="password_sign">
               </div>
             </div>
             <!--<div class="form-group">-->
