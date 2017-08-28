@@ -1,0 +1,65 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: XPS 13 9350
+  Date: 2017/8/26
+  Time: 10:05
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>能力示范文稿管理系统</title>
+</head>
+<body>
+<form>
+  <div>
+    <label for="inputName" >Name</label>
+    <input type="text" id="inputName" placeholder="Name">
+  </div>
+  <div>
+    <label for="inputSex" >Sex</label>
+    <input type="text" id="inputSex" placeholder="Sex">
+  </div>
+  <div>
+    <label for="inputBirth" >Birth</label>
+    <input type="text" id="inputBirth" placeholder="Address">
+  </div>
+  <div>
+    <label for="inputAddress" >Address</label>
+    <input type="text" id="inputAddress" placeholder="Address">
+  </div>
+  <div>
+    <label for="inputPhone" >Phone</label>
+    <input type="text"  id="inputPhone" placeholder="Phone">
+  </div>
+  <div>
+    <label for="inputReferee" >referee</label>
+    <input type="text"  id="inputReferee" placeholder="referee">
+  </div>
+  <div>
+    <label for="inputBranch" >Branch</label>
+    <select  id="inputBranch">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div>
+    <label for="inputCommittee" >Committee</label>
+    <select id="inputCommittee">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div>
+    <input type="submit" value="注册会员">
+  </div>
+</form>
+</body>
+</html>
